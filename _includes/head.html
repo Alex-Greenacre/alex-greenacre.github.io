@@ -1,0 +1,19 @@
+<head>
+    {%comment%}
+        header template 
+        creates head for all pages, title is generated with the page title followed by site name for accessibility 
+        uses jeyklls seo and feed meta plugins for search optimisation  
+    {%endcomment%}
+    <title>
+        {{page.title}} - {{site.title}}
+    </title>
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/skip_to_main_content.css" | relative_url }}">
+    
+    {%comment%}
+  
+    {%seo title=false%}
+    {%endcomment%}
+ 
+    {%- feed_meta -%}
+</head>
