@@ -29,9 +29,10 @@ url: "https://alex-greenacre.github.io/" # the base hostname & protocol for your
 github_username:  Alex-Greenacre
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

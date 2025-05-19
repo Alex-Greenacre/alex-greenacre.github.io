@@ -1,0 +1,41 @@
+.site-header{
+    display: flexbox;
+    
+}
+.site-title{
+    position: relative;
+}
+.skip-to-main-content{
+    opacity: 0;
+    top: auto;
+    position: absolute;
+    z-index: 99;
+
+}
+.skip-to-main-content:focus{
+    opacity: 1;
+    padding: 1em;
+    background: white;
+    color: black;
+}
+.divider{
+    background-color: white;
+    padding-bottom: 10px;
+}
+.first-bar{
+    height: 10px;
+    background-color: midnightblue;
+}
+
+.second-bar{
+    height: 10px;
+    background-color: lightcoral;
+}
+.third-bar{
+    height: 10px;
+    background-color: lightgreen;
+}
+.forth-bar{
+    height: 10px;
+    background-color: lightblue;
+}
