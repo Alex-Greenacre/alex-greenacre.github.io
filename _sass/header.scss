@@ -1,10 +1,4 @@
-.site-header{
-    display: flexbox;
-    
-}
-.site-title{
-    position: relative;
-}
+//Skip to main content 
 .skip-to-main-content{
     opacity: 0;
     top: auto;
@@ -18,24 +12,67 @@
     background: white;
     color: black;
 }
+//Site header 
+.site-header{
+    padding-top: 1em;
+    background-color: midnightblue;
+}
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em ;
+}
+.site-title{
+    position: relative;
+    padding-left: 0.5em;
+    //font-size: $max-header-size*0.75;
+    padding-bottom: 1px;
+}
+//Nav bar 
+.nav-bar{
+    padding-bottom: 1px;   
+    padding-right: 0.5em;
+}
+.page-link{
+    padding-right: 1em;
+}
+//Header border 
 .divider{
+    width: 100%;
     background-color: white;
     padding-bottom: 10px;
 }
-.first-bar{
+.divider div{
     height: 10px;
-    background-color: midnightblue;
 }
-
-.second-bar{
-    height: 10px;
+#first-bar{
     background-color: lightcoral;
 }
-.third-bar{
-    height: 10px;
+
+#second-bar{
     background-color: lightgreen;
 }
-.forth-bar{
-    height: 10px;
-    background-color: lightblue;
+#third-bar{
+    background-color: lightgoldenrodyellow;
+}
+#forth-bar{
+    background-color: lightskyblue;
+}
+
+
+//Move to base 
+body{
+    font-family: $font-family;
+    font-size: $font-body-size;
+    margin: 0;
+}
+main{
+    margin: 1em;
+}
+h1{
+    font-size: $max-header-size;
+}
+a{
+    text-decoration: none;
+    color: white;
 }

@@ -1,18 +1,21 @@
 <a href="#main" class="skip-to-main-content">skip to main content</a>
 <header class="site-header">
-    <a href="{{site.url}}" class="site-title">{{site.title}}</a>
-    <div class = "site-nav">
-        {%for page in site.pages%}
-            {%if page.inHeader%}
-                {%assign headerPage = page %}
-                <a href="{{headerPage.permalink | escape}}" class="page-link">{{headerPage.title}}</a>
-            {%endif%}
-        {%endfor%}
+    <div class="header-bar">
+        <a href="{{site.url}}" class="site-title">{{site.title}}</a>
+        <div class = "nav-bar">
+            <a href="#main" class="page-link">Github</a>
+            {%for page in site.pages%}
+                {%if page.inHeader%}
+                    {%assign headerPage = page %}
+                    <a href="{{headerPage.permalink | escape}}" class="page-link">{{headerPage.title}}</a>
+                {%endif%}
+            {%endfor%}
+        </div>
     </div >
     <div class="divider">
-        <div class="first-bar"></div>
-        <div class="second-bar"></div>
-        <div class="third-bar"></div>
-        <div class="forth-bar"></div>
+        <div id="first-bar"></div>
+        <div id="second-bar"></div>
+        <div id="third-bar"></div>
+        <div id="forth-bar"></div>
     </div>
 </header>
