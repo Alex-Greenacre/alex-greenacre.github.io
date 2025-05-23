@@ -1,0 +1,27 @@
+<footer class="site-footer">
+    <div class="footer-divider">
+        <div id="footer-first-bar"></div>
+        <div id="footer-second-bar"></div>
+        <div id="footer-third-bar"></div>
+        <div id="footer-forth-bar"></div>
+    </div>
+    <div class="footer-bar">
+        <div id="social-links">
+            <p>Github:</br>
+                <a id="github-footer-link" href="{{site.github.owner_url | escape}}">{{site.github_username}}</a>
+            </p>
+            <p>Email:<br> {{site.email}}</p>
+            
+        </div>
+        <p>{{site.description}}</p>
+        <!--    
+        <pre id="test">{{site.github | jsonify}}</pre>
+            <script>
+                const a = document.getElementById('test');
+                const b = JSON.parse(a.textContent);
+                a.textContent = JSON.stringify(b,null,2);
+            </script>
+        </div>
+        -->
+    </div>
+</footer>

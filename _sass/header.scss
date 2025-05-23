@@ -25,7 +25,7 @@
 .site-title{
     position: relative;
     padding-left: 0.5em;
-    //font-size: $max-header-size*0.75;
+    //font-size: $h3-size;
     padding-bottom: 1px;
 }
 //Nav bar 
@@ -43,36 +43,22 @@
     padding-bottom: 10px;
 }
 .divider div{
-    height: 10px;
+    height: $border-height;
 }
 #first-bar{
-    background-color: lightcoral;
+    background-color: $first-colour;
 }
-
 #second-bar{
-    background-color: lightgreen;
+    background-color: $second-colour;
 }
 #third-bar{
-    background-color: lightgoldenrodyellow;
+    background-color: $third-colour;
 }
 #forth-bar{
-    background-color: lightskyblue;
+    background-color: $last-colour;
 }
-
-
-//Move to base 
-body{
-    font-family: $font-family;
-    font-size: $font-body-size;
-    margin: 0;
-}
-main{
-    margin: 1em;
-}
-h1{
-    font-size: $max-header-size;
-}
-a{
+header a, footer a, footer p {
     text-decoration: none;
     color: white;
+    font-size: $font-body-size;
 }

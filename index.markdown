@@ -7,6 +7,6 @@ title: Hello :)
 inHeader: false
 ---
 
-Development is my passion 
-
+<h2>Development is my passion</h2> 
+<h3>Test Title</h3>
 This is a long sentence that will be used to display content.This is a long sentence that will be used to display content.This is a long sentence that will be used to display content.This is a long sentence that will be used to display content.This is a long sentence that will be used to display content. 
