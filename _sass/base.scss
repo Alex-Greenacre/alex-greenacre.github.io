@@ -2,6 +2,7 @@
 body{
     font-family: $font-family;
     font-size: $font-body-size;
+    font-weight: $font-weight;
     margin: 0;
     min-height: 100vh;
     //using flex box to push footer to the bottom of the page
@@ -12,16 +13,46 @@ main{
     //used to push footer down
     flex: 1;
     margin: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+//headers 
 h1{
     font-size: $h1-size;
+    font-weight: $font-weight+200;
 }
 h2{
     font-size: $h2-size;
+    font-weight: $font-weight+100;
 }
 h3{
     font-size: $h3-size;
+    font-weight: $font-weight+50;
 }
+//links and text 
 a {
     text-decoration: none;
+}
+
+//img 
+img{
+    max-width: 80%;
+    vertical-align:middle;
+}
+
+//blog posts list 
+.post-item{
+    list-style:none;
+    border-bottom: 0.1em;
+    border-color: $background-colour;
+    h3{
+        font-weight: $font-weight;
+    }
+}
+.post-details{
+    display: flex;
+    justify-content: space-between;
+    p{
+        margin-top: 0;
+    }
 }

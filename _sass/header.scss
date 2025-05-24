@@ -15,7 +15,7 @@
 //Site header 
 .site-header{
     padding-top: 1em;
-    background-color: midnightblue;
+    background-color: $primary-colour;
 }
 .header-bar{
     display: flex;
@@ -39,7 +39,7 @@
 //Header border 
 .divider{
     width: 100%;
-    background-color: white;
+    background-color: $background-colour;
     padding-bottom: 10px;
 }
 .divider div{
@@ -59,6 +59,6 @@
 }
 header a, footer a, footer p {
     text-decoration: none;
-    color: white;
+    color: $background-colour;
     font-size: $font-body-size;
 }

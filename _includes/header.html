@@ -3,7 +3,7 @@
     <div class="header-bar">
         <a href="{{site.url}}" class="site-title">{{site.title}}</a>
         <div class = "nav-bar">
-            <a href="#main" class="page-link">Github</a>
+            <a href="{{site.github.owner_url | escape}}" class="page-link">Github</a>
             {%for page in site.pages%}
                 {%if page.inHeader%}
                     {%assign headerPage = page %}
