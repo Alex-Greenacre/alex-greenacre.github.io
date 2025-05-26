@@ -1,0 +1,23 @@
+---
+layout: base
+---
+<h1>{{page.title}}</h1>
+{{ content }}
+<div class="section-divider"></div>
+<h2>Posts</h2>
+<ul>
+    {%for post in site.posts%}
+      <li class="post-item">
+        <a href="{{post.url | relative_url}}">  
+          <h3>{{post.title}}</h3>
+        </a>
+        <div class="post-details">
+          <p>Type: {{post.categories}}</p>
+          <p>Date: {{post.date| split: '+'| slice:0}}</p>
+        </div>
+      </li>
+      {%else%}
+        <p>No Posts Found</p>
+    {%endfor%}
+  </ul>
+    

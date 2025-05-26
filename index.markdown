@@ -3,11 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Hello :)
+title: Hello World
 inHeader: false
 ---
 
-## Development is my passion ## 
-This is a long sentence that will be used to display content.This is a long sentence that will be used to display content.This is a long sentence that will be used to display content.This is a long sentence that will be used to display content.This is a long sentence that will be used to display content. 
-## Recent Blogs ##
-What I've been up to:
+ 
+With over 6 years of experience in industry with 10 including academic I have done almost everything from Accessibility Testing to AI models.
+
+This website tracks all my personal projects as well as a blog on what I've been up to. 

@@ -33,19 +33,24 @@ h3{
 a {
     text-decoration: none;
 }
-
 //img 
 img{
     max-width: 80%;
     vertical-align:middle;
 }
+/*
+common componments 
+*/
+//border
+.section-divider{
+    border-bottom: 0.1em solid;
+    border-color: $primary-colour;
+}
 
 //blog posts list 
-.post-item{
+.post-item, .project-item{
     list-style:none;
-    border-bottom: 0.1em;
-    border-color: $background-colour;
-    h3{
+h3{
         font-weight: $font-weight;
     }
 }
@@ -55,4 +60,15 @@ img{
     p{
         margin-top: 0;
     }
+}
+/*
+--Home Page-- 
+*/
+#home-title{
+    font-size: $h1-size*2;
+}
+#header-second-row{
+    font-weight: $font-weight;
+    font-size: $h1-size;
+    display: block;
 }

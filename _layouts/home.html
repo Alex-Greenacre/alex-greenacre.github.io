@@ -1,34 +1,41 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <h1>{{page.title}}</h1>
-        {{ content }}
-        <ul>
-          {%for post in site.posts limit:3 %}
-          <li class="post-item">
-            <a href="{{post.url | relative_url}}">  
-              <h3>{{post.title}}</h3>
-            </a>
-            <div class="post-details">
-              <p>Type: {{post.categories}}</p>
-              <p>Date: {{post.date| split: '+'| slice:0}}</p>
-            </div>
-          </li>
-          {%else%}
-          <p>No Posts Found</p>
-          {%endfor%}
-        </ul>
-      </div>
-    </main>
-    {% include footer.html %}
-  </body>
-
-</html>
+---
+layout: base
+---
+<h1 id="home-title">{{page.title}}<span id="header-second-row">I'm Alex :)</span></h1>
+{{ content }}
+<div class="section-divider"></div>
+  <h2>Recent Projects</h2>
+  <p>What I've been working on:</p>
+  <ul>      
+    {%for project in site.github.public_repositories limit:3%}
+      <li class="project-item">
+        <a href="{{project.html_url}}">
+          <h3 >{{project.name}}</h3>
+        </a>
+        <div class="post-details">
+          <p>Type: {{project.language}}</p>
+          <p>Date: {{project.updated_at| split: 'U'| slice:0}}</p>
+        </div>
+      </li>
+    {%else%}
+      <p>No projects found</p>
+    {%endfor%}
+  </ul>
+  <h2>Recent Blogs</h2>
+  <p>What I've been up to:</p>
+  <ul>
+    {%for post in site.posts limit:3 %}
+      <li class="post-item">
+        <a href="{{post.url | relative_url}}">  
+          <h3>{{post.title}}</h3>
+        </a>
+        <div class="post-details">
+          <p>Type: {{post.categories}}</p>
+          <p>Date: {{post.date| split: '+'| slice:0}}</p>
+        </div>
+      </li>
+      {%else%}
+        <p>No Posts Found</p>
+    {%endfor%}
+  </ul>
+    
