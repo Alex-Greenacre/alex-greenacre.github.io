@@ -3,8 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Hello :)
+title: Hello World
 inHeader: false
 ---
 
-Development is my passion 
+ 
+With over 6 years of experience in industry with 10 including academic I have done almost everything from Accessibility Testing to AI models.
+
+This website tracks all my personal projects as well as a blog on what I've been up to. 

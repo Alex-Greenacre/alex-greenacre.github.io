@@ -1,9 +1,0 @@
-.skip-to-main-content{
-    opacity: 0;
-    position: relative;
-    z-index: 99;
-    padding: 1em;
-}
-.skip-to-main-content:focus{
-    opacity: 1;
-}

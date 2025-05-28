@@ -1,0 +1,33 @@
+//Site header 
+.site-footer{
+    padding-bottom: 1em;
+    background-color: $primary-colour;
+}
+
+.footer-bar{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 1em ;
+
+}
+
+//Footer Border
+.footer-divider{
+    width: 100%;
+    background-color: white;
+}
+.footer-divider div{
+    height: $border-height;
+}
+#footer-first-bar{
+    background-color: $last-colour;
+}
+#footer-second-bar{
+    background-color: $third-colour;
+}
+#footer-third-bar{
+    background-color: $second-colour;
+}
+#footer-forth-bar{
+    background-color: $first-colour;
+}

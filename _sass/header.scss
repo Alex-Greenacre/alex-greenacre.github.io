@@ -1,0 +1,64 @@
+//Skip to main content 
+.skip-to-main-content{
+    opacity: 0;
+    top: auto;
+    position: absolute;
+    z-index: 99;
+
+}
+.skip-to-main-content:focus{
+    opacity: 1;
+    padding: 1em;
+    background: white;
+    color: black;
+}
+//Site header 
+.site-header{
+    padding-top: 1em;
+    background-color: $primary-colour;
+}
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em ;
+}
+.site-title{
+    position: relative;
+    padding-left: 0.5em;
+    //font-size: $h3-size;
+    padding-bottom: 1px;
+}
+//Nav bar 
+.nav-bar{
+    padding-bottom: 1px;   
+    padding-right: 0.5em;
+}
+.page-link{
+    padding-right: 1em;
+}
+//Header border 
+.divider{
+    width: 100%;
+    background-color: $background-colour;
+    padding-bottom: 10px;
+}
+.divider div{
+    height: $border-height;
+}
+#first-bar{
+    background-color: $first-colour;
+}
+#second-bar{
+    background-color: $second-colour;
+}
+#third-bar{
+    background-color: $third-colour;
+}
+#forth-bar{
+    background-color: $last-colour;
+}
+header a, footer a, footer p {
+    text-decoration: none;
+    color: $background-colour;
+    font-size: $font-body-size;
+}
