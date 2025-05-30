@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Personal Portfolio - Header And Footer Design"
-date:   2025-05-12 12:00:00 +0100
-categories: update
+date:   2025-05-23 12:00:00 +0100
+categories: project
 ---
 Because I'm trying to keep the website as clean and easy to use as possible there isn't going to be alot of colour, this isn't great as it can come across as a bit dull. To combat this I decided to create a divider between the header/footer and the main body, the aim of this was to provide colour to the page whilst also not effecting its readability.  
 
