@@ -14,7 +14,7 @@ Website looks good, I think the header works really well in providing colour to 
 ## What didnt go well ##
 When I approached this I didn't really have a clear design. I think this is quite evident in the final design as although it does look clear and functional it definitely doesn't look like the best it could and for a personal portfolio it's a bit bland.
 
-The css also isn't the best which was to be expected, my biggest issue is that currently unique css for pages is stored in the bottom of base, this is fine at the moment but when I go to add more pages it can easily get to complicated allowing for standards to slip and 
+The css also isn't the best which was to be expected, my biggest issue is that currently unique css for pages is stored in the bottom of base, this is fine at the moment but when I go to add more pages it can easily get to complicated allowing for standards to slip and updating the styles to be alot harder. 
 
 Also even though I do like the pros using github pages and a static site brings there is going to be some drawbacks in terms of expandability, as projects that could cover areas such as microservices or an database for storing any potentail data can't be implemented. Although the pros of github pages still outweights these concerns as data storage is unlikely and I can still build the projects for them in github repos and just not implement live.      
 
