@@ -38,6 +38,26 @@ img{
     max-width: 100%;
     vertical-align:middle;
 }
+//code 
+//inline
+code{
+    background-color: lightgray;
+    font-size:$font-body-size*0.9;
+    font-family: monospace;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+//block
+pre code{
+    display: block;
+    background-color: lightgray;
+    font-size:$font-body-size*0.9;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
 /*
 common componments 
 */
